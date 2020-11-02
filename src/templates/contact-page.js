@@ -37,6 +37,9 @@ const Contact = ({data}) => {
         <h1>{frontmatter.title}</h1>
         <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
         <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <p style={{display: "none"}}>
+            <input name="bot-field" />
+          </p>
           <input type="hidden" name="form-name" value="contact" />
           <p>
             <label>Name<input type="text" name="name" required /></label>   
