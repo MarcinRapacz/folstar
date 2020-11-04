@@ -2,7 +2,7 @@
 template: index-page
 slug: /
 title: Folstar
-tagline: Hurtownia słodyczy
+tagline: Obróbka folii oraz sprzedaż hurtowa słodyczy
 featuredImage: /assets/candies-318359_1920.jpg
 cta:
   ctaText: Więcej o nas
