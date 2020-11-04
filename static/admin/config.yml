@@ -16,8 +16,8 @@ public_folder: "/assets"
 
 collections:
   - name: "products" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Products" # Used in the UI
-    label_singular: "Product" # Used in the UI, ie: "New Post"
+    label: "Produkty" # Used in the UI
+    label_singular: "Produkt" # Used in the UI, ie: "New Post"
     description: >
       Create awesome content here.
     folder: "src/content/products"
@@ -33,38 +33,36 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - {
-          label: "Slug",
+          label: "Ścieżka do strony",
           name: "slug",
           widget: "string",
-          hint: "Start slug with /. Use only alphanumeric characters, - and _. Avoid spaces in any cases.",
+          hint: "Rozpocznij od /. Używaj tylko alfabetu, - i _. Unikaj polskich znaków. Musi być unikalne.",
         }
       - {
-          label: "Publish Date",
+          label: "Data publikacji",
           name: "date",
           widget: "datetime",
           dateFormat: "YYYY-MM-DD",
           timeFormat: "HH:mm",
           format: "YYYY-MM-DD HH:mm",
         }
-      - { label: "SEO Description", name: "description", widget: "text" }
       - {
-          label: "Featured Image",
+          label: "Opis SEO",
+          name: "description",
+          widget: "text",
+          hint: "Opis dla przeglądarki. Używaj haseł, które najlepiej opisują produkt.",
+        }
+      - {
+          label: "Zdjęcie",
           name: "featuredImage",
           widget: "image",
-          required: false,
           tagname: "",
         }
-
-      - {
-          label: "Body",
-          name: "body",
-          widget: "markdown",
-          hint: "Main content goes here.",
-        }
-  - label: "Pages"
+      - { label: "Główny opis produktu", name: "body", widget: "markdown" }
+  - label: "Strony"
     name: "pages"
     files:
-      - label: "Home"
+      - label: "Strona główna"
         name: "home"
         file: "src/content/pages/index.md"
         fields:
@@ -75,21 +73,21 @@ collections:
               default: "index-page",
             }
           - { label: "Slug", name: "slug", widget: "hidden", default: "/" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Tagline", name: "tagline", widget: "string" }
-          - { label: "Featured Image", name: "featuredImage", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - label: "CTA"
+          - { label: "Tytył", name: "title", widget: "string" }
+          - { label: "Podtytuł", name: "tagline", widget: "string" }
+          - { label: "Zdjęcie", name: "featuredImage", widget: "image" }
+          - { label: "Opis", name: "body", widget: "markdown" }
+          - label: "Guzik"
             name: "cta"
             widget: "object"
             fields:
               - name: "ctaText"
-                label: "CTA text"
+                label: "Etykieta na przycisku"
                 widget: "string"
               - name: "ctaLink"
-                label: "CTA Link"
+                label: "Ścieżka gdzie ma prowadzić"
                 widget: "string"
-      - label: "About"
+      - label: "O nas"
         name: "about"
         file: "src/content/pages/about.md"
         fields:
@@ -100,9 +98,9 @@ collections:
               default: "about-page",
             }
           - { label: "Slug", name: "slug", widget: "hidden", default: "/about" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Contact"
+          - { label: "Tytył", name: "title", widget: "string" }
+          - { label: "Opis", name: "body", widget: "markdown" }
+      - label: "Kontakt"
         name: "contact"
         file: "src/content/pages/contact.md"
         fields:
@@ -118,8 +116,8 @@ collections:
               widget: "hidden",
               default: "/contact",
             }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Opis", name: "body", widget: "markdown" }
   - name: settings
     label: Settings
     files:
