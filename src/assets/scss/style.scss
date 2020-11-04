@@ -334,6 +334,7 @@ article img {
     appearance: none;
     font-size: 18px;
     font-weight: 600;
+    outline-style: none;
     &:focus {
       border-color: var(--input-focus-border);
     }
