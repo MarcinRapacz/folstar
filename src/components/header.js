@@ -2,7 +2,9 @@ import React from "react"
 
 const Header = ({children}) => (
   <header className="site-header">
-    {children}
+    <div className="site-header-content">
+      {children}
+    </div>
   </header>
 )
 
