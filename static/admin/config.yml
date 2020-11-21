@@ -36,7 +36,7 @@ collections:
           label: "Ścieżka do strony",
           name: "slug",
           widget: "string",
-          hint: "Rozpocznij od /. Używaj tylko alfabetu, - i _. Unikaj polskich znaków. Musi być unikalne.",
+          hint: "Rozpocznij od / oraz używaj tylko alfabetu, - i _. Unikaj polskich znaków. MUSI być unikalne.",
         }
       - {
           label: "Data publikacji",
@@ -50,7 +50,7 @@ collections:
           label: "Opis SEO",
           name: "description",
           widget: "text",
-          hint: "Opis dla przeglądarki. Używaj haseł, które najlepiej opisują produkt.",
+          hint: "Opis który wyświetli sie w wyszukiwarce.",
         }
       - {
           label: "Zdjęcie",
@@ -118,6 +118,24 @@ collections:
             }
           - { label: "Tytuł", name: "title", widget: "string" }
           - { label: "Opis", name: "body", widget: "markdown" }
+      - label: "Polityka prywatności"
+        name: "privacy-policy"
+        file: "src/content/pages/privacy-policy.md"
+        fields:
+          - {
+              label: "Template",
+              name: "template",
+              widget: "hidden",
+              default: "privacy-policy-page",
+            }
+          - {
+              label: "Slug",
+              name: "slug",
+              widget: "hidden",
+              default: "/privacy-policy",
+            }
+          - { label: "Tytuł", name: "title", widget: "string" }
+          - { label: "Treść", name: "body", widget: "markdown" }
   - name: settings
     label: Settings
     files:

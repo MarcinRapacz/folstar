@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const Footer = () => {
   const year = new Date().getFullYear()
@@ -12,7 +13,8 @@ const Footer = () => {
         <p>
           {year} @Folstar | Created using{" "}
           <a href={templateUrl}>Gatsby Starter</a> | Developing by{" "}
-          <a href={developerUrl}>Marcin Rapacz</a>
+          <a href={developerUrl}>Marcin Rapacz</a> |{" "}
+          <Link to="/privacy-policy">GDPR</Link>
         </p>
       </div>
     </footer>
