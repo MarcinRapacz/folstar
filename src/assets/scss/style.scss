@@ -315,6 +315,21 @@ article img {
 }
 // Contact page
 .contact-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+
+  & > * {
+    width: 100%;
+    @media (min-width: 1024px) {
+      flex-basis: 48%;
+    }
+  }
   .wrapper {
     max-width: 768px;
     margin: 0 auto;

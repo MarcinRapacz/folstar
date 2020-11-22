@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql } from "gatsby"
 import { RiShieldUserFill } from "react-icons/ri"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
