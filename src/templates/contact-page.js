@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { RiSendPlane2Line } from "react-icons/ri"
-// import Image from "gatsby-image"
+import Image from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,17 +14,16 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 140)
       frontmatter {
         title
-        # mapHref
-        # map {
-        #   link
-        #   image {
-        #     childImageSharp {
-        #       fluid {
-        #         ...GatsbyImageSharpFluid
-        #       }
-        #     }
-        #   }
-        # }
+        map {
+          link
+          image {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     }
     site {
@@ -38,8 +37,6 @@ export const pageQuery = graphql`
 const Contact = ({ data }) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-
-  console.log(frontmatter)
 
   return (
     <Layout className="contact-page">
@@ -99,11 +96,11 @@ const Contact = ({ data }) => {
           </p>
         </form>
       </div>
-      {/* <div className="map">
+      <div className="map">
         <a href={frontmatter.map.link} target="_blank" rel="noreferrer">
           <Image fluid={frontmatter.map.image.childImageSharp.fluid} />
         </a>
-      </div> */}
+      </div>
     </Layout>
   )
 }
