@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { RiSendPlane2Line } from "react-icons/ri"
 import Image from "gatsby-image"
+import { MdPhoneAndroid, MdEmail, MdPinDrop, MdPerson } from "react-icons/md"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -23,6 +24,12 @@ export const pageQuery = graphql`
               }
             }
           }
+        }
+        contact {
+          name
+          address
+          phone
+          email
         }
       }
     }
@@ -100,6 +107,21 @@ const Contact = ({ data }) => {
         <a href={frontmatter.map.link} target="_blank" rel="noreferrer">
           <Image fluid={frontmatter.map.image.childImageSharp.fluid} />
         </a>
+
+        <div className="contactDetails">
+          <p>
+            <MdPerson /> {frontmatter.contact.name}
+          </p>
+          <p>
+            <MdPinDrop /> {frontmatter.contact.address}
+          </p>
+          <p>
+            <MdPhoneAndroid /> {frontmatter.contact.phone}
+          </p>
+          <p>
+            <MdEmail /> {frontmatter.contact.email}
+          </p>
+        </div>
       </div>
     </Layout>
   )

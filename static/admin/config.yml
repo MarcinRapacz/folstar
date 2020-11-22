@@ -124,6 +124,14 @@ collections:
             fields:
               - { label: "Mapa", name: "image", widget: "image" }
               - { label: "Link mapy", name: "link" }
+          - label: "Dane kontaktowe"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Nazwa firmy", name: "name" }
+              - { label: "Adres", name: "address" }
+              - { label: "Telefon", name: "phone" }
+              - { label: "Email", name: "email" }
       - label: "Polityka prywatności"
         name: "privacy-policy"
         file: "src/content/pages/privacy-policy.md"
