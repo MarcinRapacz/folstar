@@ -2,6 +2,7 @@
 template: contact-page
 slug: /contact
 title: Skontaktuj się
+map: /assets/map.jpg
 ---
 Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
 
