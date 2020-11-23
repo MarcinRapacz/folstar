@@ -1,7 +1,6 @@
 ---
 template: privacy-policy-page
 slug: /privacy-policy
-title: Polityka prywatności
 ---
 
 1. Serwis nie zbiera w sposób automatyczny żadnych informacji, z wyjątkiem informacji zawartych w plikach cookies i storage zwane dalej plikami cookies.

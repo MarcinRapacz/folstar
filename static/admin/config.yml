@@ -148,8 +148,7 @@ collections:
               widget: "hidden",
               default: "/privacy-policy",
             }
-          - { label: "Tytuł", name: "title", widget: "string" }
-          - { label: "Treść", name: "body", widget: "markdown" }
+          - { label: "Informacja", name: "body", widget: "markdown" }
   - name: settings
     label: Settings
     files:
