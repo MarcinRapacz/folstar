@@ -2,34 +2,45 @@
 template: privacy-policy-page
 slug: /privacy-policy
 ---
+**Polityka prywatności**
 
-1. Serwis nie zbiera w sposób automatyczny żadnych informacji, z wyjątkiem informacji zawartych w plikach cookies i storage zwane dalej plikami cookies.
-2. Pliki cookies (tzw. „ciasteczka”) stanowią dane informatyczne, w szczególności pliki tekstowe, które przechowywane są w urządzeniu końcowym Użytkownika Serwisu i przeznaczone są do korzystania ze stron internetowych Serwisu. Cookies zazwyczaj zawierają nazwę strony internetowej, z której pochodzą, czas przechowywania ich na urządzeniu końcowym oraz unikalny numer.
-3. Podmiotem zamieszczającym na urządzeniu końcowym Użytkownika Serwisu pliki cookies oraz uzyskującym do nich dostęp jest operator Serwisu firma SZCZYRBAK ALEKSANDRA P.P.H.U. "FOLSTAR" z siedzibą pod adresem 32-052 Radziszów, Jaśminowa 7.
-4. Pliki cookies wykorzystywane są w celu:
+1. Informacje ogólne Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych przekazanych przez Użytkowników w związku z korzystaniem przez nich poprzez Serwis. 
+2. Administratorem danych osobowych zawartych w serwisie jest firma Szczyrbak Aleksandra P.P.H.U. "FOLSTAR" z siedzibą pod adresem 32-052 Radziszów, Jaśminowa 7 NIP 6791198495 REGON 351332486.
+3. W trosce o bezpieczeństwo powierzonych nam danych opracowaliśmy wewnętrzne procedury i zalecenia, które mają zapobiec udostępnieniu danych osobom nieupoważnionym. Kontrolujemy ich wykonywanie i stale sprawdzamy ich zgodność z odpowiednimi aktami prawnymi - ustawą o ochronie danych osobowych, ustawą o świadczeniu usług drogą elektroniczną, a także wszelkiego rodzaju aktach wykonawczych i aktach prawa wspólnotowego. 
+4. Dane Osobowe przetwarzane są na podstawie zgody wyrażanej przez Użytkownika oraz w przypadkach, w których przepisy prawa upoważniają Administratora do przetwarzania danych osobowych na podstawie przepisów prawa lub w celu realizacji zawartej pomiędzy stronami umowy. 
+5. Serwis realizuje funkcje pozyskiwania informacji o użytkownikach i ich zachowaniach w następujący sposób: 
 
-a)      dostosowania zawartości stron internetowych Serwisu do preferencji Użytkownika oraz optymalizacji korzystania ze stron internetowych; w szczególności pliki te pozwalają rozpoznać urządzenie Użytkownika Serwisu i odpowiednio wyświetlić stronę internetową, dostosowaną do jego indywidualnych potrzeb;
+   a) poprzez dobrowolnie wprowadzone w formularzach informacje 
 
-b)      tworzenia statystyk, które pomagają zrozumieć, w jaki sposób Użytkownicy Serwisu korzystają ze stron internetowych, co umożliwia ulepszanie ich struktury i zawartości;
+   b) poprzez gromadzenie plików “cookies” / storage
+6. Serwis zbiera informacje dobrowolnie podane przez użytkownika. 
+7. Dane podane w formularzu są przetwarzane w celu wynikającym z funkcji konkretnego formularza np. w celu dokonania procesu obsługi kontaktu informacyjnego 
+8. Dane osobowe pozostawione w serwisie nie zostaną sprzedane ani udostępnione osobom trzecim, zgodnie z przepisami Ustawy o ochronie danych osobowych. 
+9. Do danych zawartych w formularzu przysługuje wgląd osobie fizycznej, która je tam umieściła. Osoba ta ma również praw do modyfikacji i zaprzestania przetwarzania swoich danych w dowolnym momencie. 
+10. Zastrzegamy sobie prawo do zmiany w polityce ochrony prywatności serwisu, na które może wpłynąć rozwój technologii internetowej, ewentualne zmiany prawa w zakresie ochrony danych osobowych oraz rozwój naszego serwisu internetowego. O wszelkich zmianach będziemy informować w sposób widoczny i zrozumiały. 
+11. W Serwisie mogą pojawiać się linki do innych stron internetowych. Takie strony internetowe działają niezależnie od Serwisu i nie są w żaden sposób nadzorowane przez firmę Folstar. Strony te mogą posiadać własne polityki dotyczące prywatności oraz regulaminy, z którymi zalecamy się zapoznać. W razie wątpliwości co któregokolwiek z zapisów niniejszej polityki prywatności jesteśmy do dyspozycji - nasze dane znaleźć można w zakładce - KONTAKT.
 
-5. W ramach Serwisu stosowane są dwa zasadnicze rodzaje plików cookies: „sesyjne”  (_session cookies_ / session storage) oraz „stałe” (_persistent cookies_ / local storage). Cookies „sesyjne” są plikami tymczasowymi, które przechowywane są w urządzeniu końcowym Użytkownika do czasu wylogowania, opuszczenia strony internetowej lub wyłączenia oprogramowania (przeglądarki internetowej). „Stałe” pliki cookies przechowywane są w urządzeniu końcowym Użytkownika przez czas określony w parametrach plików cookies lub do czasu ich usunięcia przez Użytkownika.
-6. W ramach Serwisu stosowane są następujące rodzaje plików cookies:
+**Informacja o plikach cookies**
 
-a)      „niezbędne” pliki cookies, umożliwiające korzystanie z usług dostępnych w ramach Serwisu, np. uwierzytelniające pliki cookies wykorzystywane do usług wymagających uwierzytelniania w ramach Serwisu;
+1. Poprzez piki “cookies” należy rozumieć dane informatyczne przechowywane w urządzeniach końcowych użytkowników, przeznaczone do korzystania ze stron internetowych. W szczególności są to pliki tekstowe, zawierające nazwę strony internetowej, z której pochodzą, czas przechowywania ich na urządzeniu końcowym oraz unikalny numer. 
+2. Serwis nie zbiera w sposób automatyczny żadnych informacji, z wyjątkiem informacji zawartych w plikach cookies. 
+3. Pliki cookies przeznaczone są do korzystania ze stron serwisu. Operator wykorzystuje te pliki do:
 
-b)      pliki cookies służące do zapewnienia bezpieczeństwa, np. wykorzystywane do wykrywania nadużyć w zakresie uwierzytelniania w ramach Serwisu;
+   a) możliwości logowania i utrzymywania sesji użytkownika na każdej kolejnej stronie serwisu 
 
-c)       „wydajnościowe” pliki cookies, umożliwiające zbieranie informacji o sposobie korzystania ze stron internetowych Serwisu;
+   b) dopasowania zawartości strony internetowej do indywidualnych preferencji użytkownika, przede wszystkim pliki te rozpoznają jego urządzenie, aby zgodnie z jego preferencjami wyświetlić stronę 
 
-d)      „funkcjonalne” pliki cookies, umożliwiające „zapamiętanie” wybranych przez Użytkownika ustawień i personalizację interfejsu Użytkownika, np. w zakresie wybranego języka lub regionu, z którego pochodzi Użytkownik, rozmiaru czcionki, wyglądu strony internetowej itp.;
+   c) do tworzenia anonimowych statystyk z wyłączeniem możliwości identyfikacji użytkownika. 
+4. Pliki cookies wykorzystywane przez partnerów operatora strony internetowej, w tym w szczególności użytkowników strony internetowej, podlegają ich własnej polityce prywatności. 
+5. W trosce o bezpieczeństwo powierzonych nam danych opracowaliśmy wewnętrzne procedury i zalecenia, które mają zapobiec udostępnieniu danych osobom nieupoważnionym. Kontrolujemy ich wykonywanie i stale sprawdzamy ich zgodność z odpowiednimi aktami prawnymi - ustawą o ochronie danych osobowych, ustawą o świadczeniu usług drogą elektroniczną, a także wszelkiego rodzaju aktach wykonawczych i aktach prawa wspólnotowego 
+6. Standardowo oprogramowanie służące do przeglądania stron internetowych domyślnie dopuszcza umieszczanie plików cookies na urządzeniu końcowym Użytkownika. Ustawienia te mogą zostać zmienione przez Użytkownika w taki sposób, aby blokować automatyczną obsługę “cookies” w ustawieniach przeglądarki internetowej bądź informować o ich każdorazowym przesłaniu na urządzenia użytkownika. 
+7. Użytkownicy Serwisu mogą dokonać w każdym czasie zmiany ustawień dotyczących plików cookies. Szczegółowe informacje o możliwości i sposobach obsługi plików cookies dostępne są w ustawieniach oprogramowania (przeglądarki internetowej). Przykładowe opcje edytowania w popularnych przeglądarkach: 
 
-e)      „reklamowe” pliki cookies, umożliwiające dostarczanie Użytkownikom treści reklamowych bardziej dostosowanych do ich zainteresowań.
+   \- Mozilla Firefox: [www.support.mozilla.org/pl/kb/ciasteczka](www.support.mozilla.org/pl/kb/ciasteczka) 
 
-7. W wielu przypadkach oprogramowanie służące do przeglądania stron internetowych (przeglądarka internetowa) domyślnie dopuszcza przechowywanie plików cookies w urządzeniu końcowym Użytkownika. Użytkownicy Serwisu mogą dokonać w każdym czasie zmiany ustawień dotyczących plików cookies. Ustawienia te mogą zostać zmienione w szczególności w taki sposób, aby blokować automatyczną obsługę plików cookies w ustawieniach przeglądarki internetowej bądź informować o ich każdorazowym zamieszczeniu w urządzeniu Użytkownika Serwisu. Szczegółowe informacje o możliwości i sposobach obsługi plików cookies dostępne są w ustawieniach oprogramowania (przeglądarki internetowej).
-8. Operator Serwisu informuje, że ograniczenia stosowania plików cookies mogą wpłynąć na niektóre funkcjonalności dostępne na stronach internetowych Serwisu.
-9. Pliki cookies zamieszczane w urządzeniu końcowym Użytkownika Serwisu i wykorzystywane mogą być również przez współpracujących z operatorem Serwisu reklamodawców oraz partnerów.
-10. Więcej informacji na temat plików cookies dostępnych pod dostępnym na stronie formularzem lub w sekcji „Pomoc” w menu przeglądarki internetowej.
+   \- Internet Explorer: [www.support.microsoft.com/kb/278835/pl](www.support.microsoft.com/kb/278835/pl) 
 
-Poniższy wzór polityki cookies chroniony jest prawem autorskim, które przysługują IAB Polska.
+   \- Google Chrome: [www.support.google.com/chrome/bin/answer.py?hl=pl&answer=95647](www.support.google.com/chrome/bin/answer.py?hl=pl&answer=95647) 
 
-Źródło: [http://wszystkoociasteczkach.pl/](http://wszystkoociasteczkach.pl/.)
+   \- Safari: [www.safari.helpmax.net/pl/oszczedzanie-czasu/blokowanie-zawartosci](www.safari.helpmax.net/pl/oszczedzanie-czasu/blokowanie-zawartosci) 
+8. Operator Serwisu informuje, że zmiany ustawień w przeglądarce internetowej użytkownika mogą uniemożliwić poprawne działanie Stron Internetowych.
