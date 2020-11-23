@@ -1,0 +1,41 @@
+.GDPR {
+  padding: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  color: #ffffff;
+  font-size: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  p {
+    margin: 0 16px 0 0;
+    text-align: center;
+  }
+
+  button {
+    margin: 8px 0 0;
+    width: 200px;
+    font-size: 1.2em;
+    padding: 5px 20px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    color: #ffffff;
+    cursor: pointer;
+
+    @media (min-width: 768px) {
+      margin: 0;
+      font-size: 1em;
+    }
+  }
+}
