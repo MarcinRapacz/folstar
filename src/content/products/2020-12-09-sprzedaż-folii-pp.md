@@ -6,4 +6,6 @@ date: 2020-12-09 21:41
 description: Sprzedaż folii PP
 featuredImage: /assets/empty.png
 ---
-Sprzedaż folii PP - opis
+Wysokiej jakości folia PP z atestem dopuszczającym do stosowania do żywności. Szerokości i grubość wedle potrzeb.
+
+Atrakcyjne ceny.
