@@ -6,4 +6,6 @@ date: 2020-12-09 21:04
 description: Usługa perforacji folii
 featuredImage: /assets/empty.png
 ---
-Usługa perforacji folii - opis
+Zakupiona w 2018 roku maszyna pozwala nam na perforację folii PP i CAST w szerokości do 1000 mm, przy możliwości rozcięcia jej na mniejsze szerokości. Grubość folii 0,02mm-0,04mm.
+
+Zastosowane w niej rozwiązania pozwalają by wałek matka nawinięty był na gilzie 76mm lub 152mm, przy wadze ok.400kg, średnicy do 780mm.
