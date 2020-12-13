@@ -47,6 +47,13 @@ collections:
           format: "YYYY-MM-DD HH:mm",
         }
       - {
+          label: "Pozycja",
+          name: "position",
+          widget: "number",
+          value_type: "int",
+          hint: "Pozycja na liscie produktów",
+        }
+      - {
           label: "Opis SEO",
           name: "description",
           widget: "text",
