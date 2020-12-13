@@ -8,7 +8,7 @@ map:
 contact:
   name: Siedziba firmy PPHU Folstar
   address: ul. Jaśminowa 7 32-052 Radziszów
-  phone: tel. 504753063, 531666347
+  phone: 504-753-063, 531-666-347
   email: p.p.h.u.folstar@onet.pl
 ---
 
