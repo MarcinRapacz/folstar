@@ -7,4 +7,6 @@ position: 40
 description: Arkusze z mikroperforacją
 featuredImage: /assets/arkuszeperforowane2.jpg
 ---
-Arkusze z mikroperforacją
+![Arkusze z mikroperforacją w pudełku](/assets/arkuszeperforowane.jpg "Arkusze z mikroperforacją w pudełku")
+
+![Arkusze z mikroperforacją](/assets/arkuszeperforowane3.jpg "Arkusze z mikroperforacją")
