@@ -2,7 +2,7 @@
 template: index-page
 slug: /
 title: Folstar
-tagline: Obróbka folii oraz sprzedaż hurtowa słodyczy
+tagline: Mikroperforacja i konfekcjonowanie folii hurtowa sprzedaż słodyczy
 featuredImage: /assets/maszyna.jpg
 cta:
   ctaText: Więcej o nas
