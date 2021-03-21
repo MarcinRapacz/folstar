@@ -326,15 +326,18 @@ article img {
   @media (min-width: 1024px) {
     flex-direction: row;
   }
-
-  & > * {
-    width: 100%;
+  .map {
     @media (min-width: 1024px) {
-      flex-basis: 48%;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
     }
   }
+  .mapImage {
+    width: 60%;
+  }
   .contactDetails {
-    margin: 24px 0 0 24px;
+    margin: 0 0 0 24px;
     & > * {
       margin: 12px 0;
       display: flex;

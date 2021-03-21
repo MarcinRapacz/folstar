@@ -52,59 +52,8 @@ const Contact = ({ data }) => {
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
 
-      <div className="form">
-        <h1>{frontmatter.title}</h1>
-        <div
-          className="description"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-        <form
-          className="contact-form"
-          action="/thanks"
-          name="contact"
-          method="POST"
-          data-netlify="true"
-          data-netlify-honeypot="bot-field"
-        >
-          <p style={{ display: "none" }}>
-            <input name="bot-field" />
-          </p>
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>
-              Imię
-              <input type="text" name="name" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Email
-              <input type="email" name="email" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Telefon
-              <input type="text" name="phoneNumber" required />
-            </label>
-          </p>
-          <p>
-            <label>
-              Wiadomość<textarea name="message" required></textarea>
-            </label>
-          </p>
-          <p className="text-align-right">
-            <button className="button" type="submit">
-              Wyślij wiadomość{" "}
-              <span className="icon -right">
-                <RiSendPlane2Line />
-              </span>
-            </button>
-          </p>
-        </form>
-      </div>
       <div className="map">
-        <a href={frontmatter.map.link} target="_blank" rel="noreferrer">
+        <a href={frontmatter.map.link} target="_blank" rel="noreferrer" className="mapImage">
           <Image fluid={frontmatter.map.image.childImageSharp.fluid} />
         </a>
 
