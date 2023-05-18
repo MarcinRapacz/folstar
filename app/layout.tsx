@@ -2,6 +2,7 @@ import MobileNavigation from "@/components/navigation/MobileNavigation";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 import Footer from "@/components/commons/Footer";
+import Navbar from "@/components/commons/Navbar";
 
 const font = Montserrat({ subsets: ["latin"] });
 
@@ -18,6 +19,8 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body className={font.className}>
+        <Navbar />
+
         {children}
 
         <MobileNavigation />
