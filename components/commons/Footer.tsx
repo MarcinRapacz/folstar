@@ -33,7 +33,7 @@ const Footer = () => {
           </li>
         </ul>
         <span className="text-sm text-gray-500 sm:text-center">
-          © 2023 developed by Marcin Rapacz
+          © {new Date().getFullYear()} developed by Marcin Rapacz
         </span>
       </footer>
     </Container>
