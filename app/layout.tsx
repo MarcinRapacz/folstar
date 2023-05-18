@@ -1,5 +1,7 @@
+import MobileNavigation from "@/components/navigation/MobileNavigation";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
+import Footer from "@/components/commons/Footer";
 
 const font = Montserrat({ subsets: ["latin"] });
 
@@ -14,8 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={font.className}>{children}</body>
+    <html lang="pl">
+      <body className={font.className}>
+        {children}
+
+        <MobileNavigation />
+        <Footer />
+      </body>
     </html>
   );
 }
