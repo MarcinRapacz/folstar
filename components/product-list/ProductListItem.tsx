@@ -11,7 +11,7 @@ const ProductListItem = ({ product }: ProductListItemProps) => {
   return (
     <Link
       href={`/product/${product.slug}`}
-      className="transition-shadow rounded-2xl hover:shadow-lg cursor-pointer"
+      className="transition-shadow rounded-2xl shadow-lg xl:shadow-none hover:shadow-lg cursor-pointer"
     >
       {product.images.length && (
         <div className="relative h-[400px] rounded-2xl overflow-hidden">
