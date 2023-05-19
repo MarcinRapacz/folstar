@@ -1,10 +1,18 @@
+import Link from "next/link";
 import React from "react";
 
-const Button = ({ children }: React.PropsWithChildren) => {
+interface ButtonProps {
+  to: string;
+}
+
+const Button = ({ children, to }: React.PropsWithChildren<ButtonProps>) => {
   return (
-    <button className="py-4 px-12 rounded-lg bg-primary text-white">
+    <Link
+      href={to}
+      className="py-4 px-12 rounded-lg bg-primary text-white text-center"
+    >
       {children}
-    </button>
+    </Link>
   );
 };
 
