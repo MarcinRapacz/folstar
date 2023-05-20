@@ -25,9 +25,7 @@ const TwoColTextImage = ({
   reverse,
 }: TwoColTextImageProps) => {
   return (
-    <section
-      className={`grid gap-4 px-4 py-8 sm:p-12 lg:min-h-[600px] lg:grid-cols-2 lg:gap-20 lg:p-20`}
-    >
+    <section className={`grid gap-4 lg:min-h-[440px] lg:grid-cols-2 lg:gap-20`}>
       <div
         className={`order-last flex flex-col justify-center lg:items-start ${
           reverse ? "lg:order-last" : "lg:order-first"
