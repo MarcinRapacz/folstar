@@ -3,7 +3,7 @@ import H3 from "@/components/typography/H3";
 
 const CallToAction = () => {
   return (
-    <div className="flex flex-col justify-between gap-4 bg-primary px-16 py-20 text-center text-white xl:flex-row">
+    <div className="flex flex-col justify-between gap-4 bg-primary px-4 py-20 text-center text-white sm:px-16 xl:flex-row">
       <H3>Zapraszamy do kontaktu juz dziś</H3>
       <Button border to="/contact">
         Zobacz więcej
