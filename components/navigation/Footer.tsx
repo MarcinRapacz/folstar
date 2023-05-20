@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <Container>
-      <footer className="mb-16 flex flex-col items-center gap-2 bg-white lg:flex-row lg:justify-between">
+      <footer className="mb-16 flex flex-col items-center gap-2 bg-white px-4 md:px-20 lg:flex-row lg:justify-between">
         <Logo />
         <ul className="order-last flex flex-wrap items-center text-primary sm:order-none sm:gap-4">
           <li>

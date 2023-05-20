@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <Container>
-      <section className="flex flex-row items-center justify-center sm:justify-between">
+      <section className="flex flex-row items-center justify-center px-4 sm:justify-between md:px-20">
         <Logo />
         <nav className="hidden sm:block">
           <ul className="flex flex-row items-center gap-4 hover:text-primary">

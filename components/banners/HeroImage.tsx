@@ -7,7 +7,7 @@ import Description from "@/components/typography/Description";
 
 const HeroImage = () => {
   return (
-    <header className="relative flex h-screen flex-col items-center justify-center gap-10 px-4 md:h-[864px] md:items-start md:px-8 lg:px-20">
+    <header className="relative flex h-screen flex-col items-center justify-center gap-10 px-4 md:h-[864px] md:items-start md:px-20">
       <div className="flex max-w-xl flex-col gap-4 text-center md:text-left">
         <H1>Twój partner w biznesie</H1>
         <div className="block">
@@ -17,7 +17,7 @@ const HeroImage = () => {
           </Description>
         </div>
       </div>
-      <div className="mb-6 sm:mb-0">
+      <div className="mb-20 lg:mb-0">
         <Button to="/category">Zobacz szczegóły</Button>
       </div>
       <Image
