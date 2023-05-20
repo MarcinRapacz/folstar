@@ -45,7 +45,7 @@ const Page = async ({ params }: { params: { slug: string } }) => {
         }}
       />
       <PageContent>
-        <div className="flex flex-col-reverse xl:grid xl:grid-cols-3 gap-6 md:gap-16">
+        <div className="flex flex-col-reverse gap-6 md:gap-16 xl:grid xl:grid-cols-3">
           <div className="xl:col-span-2">
             <ProductGalery images={product.images} />
           </div>

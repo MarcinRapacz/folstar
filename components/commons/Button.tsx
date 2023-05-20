@@ -9,7 +9,7 @@ const Button = ({ children, to }: React.PropsWithChildren<ButtonProps>) => {
   return (
     <Link
       href={to}
-      className="py-4 px-12 rounded-lg bg-primary text-white text-center"
+      className="rounded-lg bg-primary px-12 py-4 text-center text-white"
     >
       {children}
     </Link>

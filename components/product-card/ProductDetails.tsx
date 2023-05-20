@@ -10,7 +10,7 @@ const ProductDetails = ({ title, description }: ProductDetailsProps) => {
     <div>
       <H1>{title}</H1>
       <div
-        className="mt-6 flex flex-col gap-6 text-justify inner-html"
+        className="inner-html mt-6 flex flex-col gap-6 text-justify"
         dangerouslySetInnerHTML={{ __html: description }}
       />
     </div>

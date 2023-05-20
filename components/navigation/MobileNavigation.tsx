@@ -3,7 +3,7 @@ import { MdGridView, MdHome, MdPhone } from "react-icons/md";
 
 const MobileNavigation = () => {
   return (
-    <nav className="sm:hidden fixed bottom-0 left-0 w-full grid grid-cols-3 h-16 border shadow-lg text-primary bg-white opacity-90">
+    <nav className="fixed bottom-0 left-0 grid h-16 w-full grid-cols-3 border bg-white text-primary opacity-90 shadow-lg sm:hidden">
       <Link href="/" className="flex items-center justify-center">
         <MdHome size={32} />
       </Link>

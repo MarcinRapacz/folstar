@@ -5,28 +5,28 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <Container>
-      <footer className="bg-white mb-16 flex flex-col lg:flex-row gap-2 items-center lg:justify-between">
+      <footer className="mb-16 flex flex-col items-center gap-2 bg-white lg:flex-row lg:justify-between">
         <Logo />
-        <ul className="flex flex-wrap sm:gap-4 items-center text-primary order-last sm:order-none">
+        <ul className="order-last flex flex-wrap items-center text-primary sm:order-none sm:gap-4">
           <li>
-            <Link href="/" className="hidden sm:block hover:underline">
+            <Link href="/" className="hidden hover:underline sm:block">
               Strona główna
             </Link>
           </li>
           <li>
-            <Link href="/category" className="hidden sm:block hover:underline ">
+            <Link href="/category" className="hidden hover:underline sm:block ">
               Oferta
             </Link>
           </li>
           <li>
-            <Link href="/contact" className="hidden sm:block hover:underline">
+            <Link href="/contact" className="hidden hover:underline sm:block">
               Kontakt
             </Link>
           </li>
           <li>
             <Link
               href="/privacy-policy"
-              className="text-sm sm:text-base hover:underline"
+              className="text-sm hover:underline sm:text-base"
             >
               Polityka prywatności
             </Link>

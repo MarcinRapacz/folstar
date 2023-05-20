@@ -1,6 +1,6 @@
 /* eslint-disable */
-import * as types from './graphql';
-import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/core';
+import * as types from "./graphql";
+import { TypedDocumentNode as DocumentNode } from "@graphql-typed-document-node/core";
 
 /**
  * Map of all GraphQL operations in the project.
@@ -13,9 +13,12 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
  * Therefore it is highly recommended to use the babel or swc plugin for production.
  */
 const documents = {
-    "\n  query getCategoryBySlug($slug: String!) {\n    category(where: { slug: $slug }) {\n      id\n      name\n      description\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      products {\n        id\n        name\n        slug\n        images(first: 1) {\n          id\n          url\n          fileName\n          height\n          width\n        }\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n": types.GetCategoryBySlugDocument,
-    "\n  query getCategoryList {\n    categories {\n      createdAt\n      description\n      id\n      name\n      publishedAt\n      slug\n      updatedAt\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n    }\n  }\n": types.GetCategoryListDocument,
-    "\n  query getProductBySlug($slug: String!) {\n    product(where: { slug: $slug }) {\n      slug\n      description {\n        html\n      }\n      name\n      price\n      tags {\n        id\n        name\n      }\n      id\n      availability\n      images {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      category {\n        id\n        name\n        slug\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n": types.GetProductBySlugDocument,
+  "\n  query getCategoryBySlug($slug: String!) {\n    category(where: { slug: $slug }) {\n      id\n      name\n      description\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      products {\n        id\n        name\n        slug\n        images(first: 1) {\n          id\n          url\n          fileName\n          height\n          width\n        }\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n":
+    types.GetCategoryBySlugDocument,
+  "\n  query getCategoryList {\n    categories {\n      createdAt\n      description\n      id\n      name\n      publishedAt\n      slug\n      updatedAt\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n    }\n  }\n":
+    types.GetCategoryListDocument,
+  "\n  query getProductBySlug($slug: String!) {\n    product(where: { slug: $slug }) {\n      slug\n      description {\n        html\n      }\n      name\n      price\n      tags {\n        id\n        name\n      }\n      id\n      availability\n      images {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      category {\n        id\n        name\n        slug\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n":
+    types.GetProductBySlugDocument,
 };
 
 /**
@@ -35,18 +38,25 @@ export function gql(source: string): unknown;
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\n  query getCategoryBySlug($slug: String!) {\n    category(where: { slug: $slug }) {\n      id\n      name\n      description\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      products {\n        id\n        name\n        slug\n        images(first: 1) {\n          id\n          url\n          fileName\n          height\n          width\n        }\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"): (typeof documents)["\n  query getCategoryBySlug($slug: String!) {\n    category(where: { slug: $slug }) {\n      id\n      name\n      description\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      products {\n        id\n        name\n        slug\n        images(first: 1) {\n          id\n          url\n          fileName\n          height\n          width\n        }\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"];
+export function gql(
+  source: "\n  query getCategoryBySlug($slug: String!) {\n    category(where: { slug: $slug }) {\n      id\n      name\n      description\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      products {\n        id\n        name\n        slug\n        images(first: 1) {\n          id\n          url\n          fileName\n          height\n          width\n        }\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"
+): (typeof documents)["\n  query getCategoryBySlug($slug: String!) {\n    category(where: { slug: $slug }) {\n      id\n      name\n      description\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      products {\n        id\n        name\n        slug\n        images(first: 1) {\n          id\n          url\n          fileName\n          height\n          width\n        }\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\n  query getCategoryList {\n    categories {\n      createdAt\n      description\n      id\n      name\n      publishedAt\n      slug\n      updatedAt\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n    }\n  }\n"): (typeof documents)["\n  query getCategoryList {\n    categories {\n      createdAt\n      description\n      id\n      name\n      publishedAt\n      slug\n      updatedAt\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n    }\n  }\n"];
+export function gql(
+  source: "\n  query getCategoryList {\n    categories {\n      createdAt\n      description\n      id\n      name\n      publishedAt\n      slug\n      updatedAt\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n    }\n  }\n"
+): (typeof documents)["\n  query getCategoryList {\n    categories {\n      createdAt\n      description\n      id\n      name\n      publishedAt\n      slug\n      updatedAt\n      image {\n        fileName\n        id\n        url\n        height\n        width\n      }\n    }\n  }\n"];
 /**
  * The gql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function gql(source: "\n  query getProductBySlug($slug: String!) {\n    product(where: { slug: $slug }) {\n      slug\n      description {\n        html\n      }\n      name\n      price\n      tags {\n        id\n        name\n      }\n      id\n      availability\n      images {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      category {\n        id\n        name\n        slug\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"): (typeof documents)["\n  query getProductBySlug($slug: String!) {\n    product(where: { slug: $slug }) {\n      slug\n      description {\n        html\n      }\n      name\n      price\n      tags {\n        id\n        name\n      }\n      id\n      availability\n      images {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      category {\n        id\n        name\n        slug\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"];
+export function gql(
+  source: "\n  query getProductBySlug($slug: String!) {\n    product(where: { slug: $slug }) {\n      slug\n      description {\n        html\n      }\n      name\n      price\n      tags {\n        id\n        name\n      }\n      id\n      availability\n      images {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      category {\n        id\n        name\n        slug\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"
+): (typeof documents)["\n  query getProductBySlug($slug: String!) {\n    product(where: { slug: $slug }) {\n      slug\n      description {\n        html\n      }\n      name\n      price\n      tags {\n        id\n        name\n      }\n      id\n      availability\n      images {\n        fileName\n        id\n        url\n        height\n        width\n      }\n      category {\n        id\n        name\n        slug\n      }\n      seo {\n        metaTitle\n        metaDescription\n      }\n    }\n  }\n"];
 
 export function gql(source: string) {
   return (documents as any)[source] ?? {};
 }
 
-export type DocumentType<TDocumentNode extends DocumentNode<any, any>> = TDocumentNode extends DocumentNode<  infer TType,  any>  ? TType  : never;
+export type DocumentType<TDocumentNode extends DocumentNode<any, any>> =
+  TDocumentNode extends DocumentNode<infer TType, any> ? TType : never;

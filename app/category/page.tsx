@@ -39,7 +39,7 @@ const Page = async () => {
             Wybierz naszą ofertę już dziś!
           </H3>
         </div>
-        <div className="flex flex-col lg:flex-row gap-8 md:gap-20 mt-16 md:mt-24">
+        <div className="mt-16 flex flex-col gap-8 md:mt-24 md:gap-20 lg:flex-row">
           {categories.map((category) => (
             <CategoryItem category={category} key={category.id} />
           ))}

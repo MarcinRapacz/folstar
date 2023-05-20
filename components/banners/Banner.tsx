@@ -13,7 +13,7 @@ interface BannerProps {
 
 const Banner = ({ label, image: { src, alt, width, height } }: BannerProps) => {
   return (
-    <section className="px-4 md:px-20 text-center md:text-left w-full h-[600px] relative flex flex-col justify-center">
+    <section className="relative flex h-[600px] w-full flex-col justify-center px-4 text-center md:px-20 md:text-left">
       <BannerHeading>{label}</BannerHeading>
       <Image
         style={{

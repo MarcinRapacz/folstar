@@ -12,7 +12,7 @@ const ProductList = ({ products }: ProductListProps) => {
   }
 
   return (
-    <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-x-16 gap-y-4 sm:gap-y-12">
+    <div className="grid gap-x-16 gap-y-4 sm:grid-cols-2 sm:gap-y-12 xl:grid-cols-4">
       {products.map((product) => (
         <ProductListItem key={product.id} product={product} />
       ))}

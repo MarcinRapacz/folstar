@@ -26,15 +26,15 @@ const TwoColTextImage = ({
 }: TwoColTextImageProps) => {
   return (
     <section
-      className={`grid lg:grid-cols-2 gap-4 lg:gap-20 px-4 py-8 sm:p-12 lg:p-20 lg:min-h-[600px]`}
+      className={`grid gap-4 px-4 py-8 sm:p-12 lg:min-h-[600px] lg:grid-cols-2 lg:gap-20 lg:p-20`}
     >
       <div
-        className={`flex flex-col lg:items-start justify-center order-last ${
+        className={`order-last flex flex-col justify-center lg:items-start ${
           reverse ? "lg:order-last" : "lg:order-first"
         }`}
       >
         <H3>{title}</H3>
-        <div className="mt-4 mb-8 sm:mt-6 sm:mb-12">
+        <div className="mb-8 mt-4 sm:mb-12 sm:mt-6">
           <Description>{description}</Description>
         </div>
         <Button to={button.to}>{button.label}</Button>

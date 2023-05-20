@@ -11,10 +11,10 @@ const ProductListItem = ({ product }: ProductListItemProps) => {
   return (
     <Link
       href={`/product/${product.slug}`}
-      className="transition-shadow rounded-2xl shadow-lg xl:shadow-none hover:shadow-lg cursor-pointer"
+      className="cursor-pointer rounded-2xl shadow-lg transition-shadow hover:shadow-lg xl:shadow-none"
     >
       {product.images.length && (
-        <div className="relative h-[400px] rounded-2xl overflow-hidden">
+        <div className="relative h-[400px] overflow-hidden rounded-2xl">
           <Image
             style={{
               width: "100%",
@@ -28,7 +28,7 @@ const ProductListItem = ({ product }: ProductListItemProps) => {
           />
         </div>
       )}
-      <div className="px-4 pt-8 pb-12">
+      <div className="px-4 pb-12 pt-8">
         <Description>{product.name}</Description>
       </div>
     </Link>

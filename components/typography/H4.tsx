@@ -2,7 +2,7 @@ import React from "react";
 
 const H4 = ({ children }: React.PropsWithChildren) => {
   return (
-    <h4 className="text-xl md:text-4xl md:leading-normal font-thin">
+    <h4 className="text-xl font-thin md:text-4xl md:leading-normal">
       {children}
     </h4>
   );
