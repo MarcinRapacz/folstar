@@ -5,6 +5,7 @@ import TwoColTextImage from "@/components/grid/TwoColTextImage";
 import candiesBanner from "@/assets/images/home-candies-banner.jpg";
 import foilBanner from "@/assets/images/home-foil-banner.jpg";
 import PageContent from "@/components/grid/PageContent";
+import OrderProcess from "@/components/order-process/OrderProcess";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
             }}
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
           />
+          <OrderProcess />
         </div>
       </PageContent>
     </Container>
