@@ -22,7 +22,7 @@ const orderProcess: OrderProcess[] = [
   {
     title: "Dogodna forma odbioru",
     description:
-      "Odbiór osobisty, kurier lub dostawa przez nas. Wybierz dogodną opcję",
+      "Odbiór osobisty, kurier lub dostawa przez nas. Wybierz dogodną opcję!",
     icon: MdLocalShipping,
   },
 ];
