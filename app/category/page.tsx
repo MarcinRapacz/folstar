@@ -6,7 +6,7 @@ import categoriesBanner from "@/assets/images/categories-banner.jpg";
 import H1 from "@/components/typography/H1";
 import PageContent from "@/components/grid/PageContent";
 import H3 from "@/components/typography/H3";
-import CategoryItem from "@/components/CategoryItem";
+import CategoryItem from "@/components/category/CategoryItem";
 
 export const metadata = {
   title: "Cukierki odpustowe i opakowania foliowe - Folstar Radziszów, Kraków",

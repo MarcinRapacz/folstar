@@ -1,4 +1,4 @@
-import Logo from "@/components/Logo";
+import Logo from "@/components/commons/Logo";
 import Container from "@/components/grid/Container";
 import Link from "next/link";
 

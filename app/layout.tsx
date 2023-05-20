@@ -1,8 +1,8 @@
 import MobileNavigation from "@/components/navigation/MobileNavigation";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
-import Footer from "@/components/commons/Footer";
-import Navbar from "@/components/commons/Navbar";
+import Footer from "@/components/navigation/Footer";
+import Navbar from "@/components/navigation/Navbar";
 
 const font = Montserrat({ subsets: ["latin"] });
 
