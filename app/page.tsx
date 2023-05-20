@@ -12,6 +12,7 @@ import OrderProcess from "@/components/order-process/OrderProcess";
 import Description from "@/components/typography/Description";
 import ContactDetails from "@/components/contact/ContactDetails";
 import TestimonialItem from "@/components/testimonial/TestimonialItem";
+import CallToAction from "@/components/banners/CallToAction";
 
 export default function Home() {
   return (
@@ -86,6 +87,7 @@ export default function Home() {
             <ContactDetails />
           </TwoColTextImage>
           <TestimonialItem />
+          <CallToAction />
         </div>
       </PageContent>
     </Container>
