@@ -1,18 +1,17 @@
 import Button from "@/components/commons/Button";
-import Description from "@/components/typography/Description";
 import H3 from "@/components/typography/H3";
 import Image from "next/image";
 
 interface TwoColTextImageProps {
   title: string;
-  description: string;
-  button: {
+  button?: {
     label: string;
     to: string;
   };
   image: {
     url: string;
     alt: string;
+    source?: string;
   };
   reverse?: boolean;
 }
@@ -20,10 +19,10 @@ interface TwoColTextImageProps {
 const TwoColTextImage = ({
   title,
   button,
-  description,
   image,
   reverse,
-}: TwoColTextImageProps) => {
+  children,
+}: React.PropsWithChildren<TwoColTextImageProps>) => {
   return (
     <section className={`grid gap-4 lg:min-h-[440px] lg:grid-cols-2 lg:gap-20`}>
       <div
@@ -32,10 +31,8 @@ const TwoColTextImage = ({
         }`}
       >
         <H3>{title}</H3>
-        <div className="mb-8 mt-4 sm:mb-12 sm:mt-6">
-          <Description>{description}</Description>
-        </div>
-        <Button to={button.to}>{button.label}</Button>
+        <div className="mb-8 mt-4 sm:mb-12 sm:mt-6">{children}</div>
+        {button && <Button to={button.to}>{button.label}</Button>}
       </div>
       <div className="relative">
         <Image
@@ -44,6 +41,7 @@ const TwoColTextImage = ({
           alt={image.alt}
           width={750}
           height={440}
+          data-source={image.source}
         />
       </div>
     </section>
