@@ -11,6 +11,7 @@ import PageContent from "@/components/grid/PageContent";
 import OrderProcess from "@/components/order-process/OrderProcess";
 import Description from "@/components/typography/Description";
 import ContactDetails from "@/components/contact/ContactDetails";
+import TestimonialItem from "@/components/testimonial/TestimonialItem";
 
 export default function Home() {
   return (
@@ -84,6 +85,7 @@ export default function Home() {
           >
             <ContactDetails />
           </TwoColTextImage>
+          <TestimonialItem />
         </div>
       </PageContent>
     </Container>
