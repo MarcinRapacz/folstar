@@ -16,7 +16,7 @@ export const metadata = {
 
 const Page = async () => {
   const categoryService = new CategoryService();
-  const categories = await categoryService.getAll();
+  const { categories } = await categoryService.getAll();
 
   return (
     <Container>

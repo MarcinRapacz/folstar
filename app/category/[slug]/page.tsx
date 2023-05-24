@@ -12,7 +12,7 @@ export async function generateMetadata({
   params: { slug: string };
 }): Promise<Metadata> {
   const categoryService = new CategoryService();
-  const category = await categoryService.getBySlug(params.slug);
+  const { category } = await categoryService.getBySlug(params.slug);
 
   if (!category) {
     return {};
@@ -26,7 +26,7 @@ export async function generateMetadata({
 
 const Page = async ({ params }: { params: { slug: string } }) => {
   const categoryService = new CategoryService();
-  const category = await categoryService.getBySlug(params.slug);
+  const { category } = await categoryService.getBySlug(params.slug);
 
   if (!category) {
     notFound();

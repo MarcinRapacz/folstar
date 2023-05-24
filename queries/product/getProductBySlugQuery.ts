@@ -1,7 +1,9 @@
-import { gql } from "@apollo/client";
+import { GetProductBySlugQueryVariables } from "@/__generated__/graphql";
 
-export const getProductBySlugQuery = gql`
-  query getProductBySlug($slug: String!) {
+export const getProductBySlugQuery = ({
+  slug,
+}: GetProductBySlugQueryVariables) => ({
+  query: `query getProductBySlug($slug: String!) {
     product(where: { slug: $slug }) {
       slug
       description {
@@ -32,5 +34,8 @@ export const getProductBySlugQuery = gql`
         metaDescription
       }
     }
-  }
-`;
+  }`,
+  variables: {
+    slug,
+  },
+});

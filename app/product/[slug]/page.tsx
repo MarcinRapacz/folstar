@@ -13,7 +13,7 @@ export async function generateMetadata({
   params: { slug: string };
 }): Promise<Metadata> {
   const productService = new ProductService();
-  const product = await productService.getBySlug(params.slug);
+  const { product } = await productService.getBySlug(params.slug);
 
   if (!product) {
     return {};
@@ -27,7 +27,7 @@ export async function generateMetadata({
 
 const Page = async ({ params }: { params: { slug: string } }) => {
   const productService = new ProductService();
-  const product = await productService.getBySlug(params.slug);
+  const { product } = await productService.getBySlug(params.slug);
 
   if (!product) {
     notFound();

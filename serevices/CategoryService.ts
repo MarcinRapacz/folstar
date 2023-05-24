@@ -11,25 +11,17 @@ export class CategoryService {
   constructor(private api = getClient()) {}
 
   public async getAll() {
-    const response = await this.api.query<
-      GetCategoryListQuery,
-      GetCategoryListQueryVariables
-    >({
-      query: getCategoryListQuery,
+    return this.api.query<GetCategoryListQuery, GetCategoryListQueryVariables>({
+      body: getCategoryListQuery(),
     });
-    return response.data.categories;
   }
 
   public async getBySlug(slug: string) {
-    const response = await this.api.query<
+    return this.api.query<
       GetCategoryBySlugQuery,
       GetCategoryBySlugQueryVariables
     >({
-      query: getCategoryBySlugQuery,
-      variables: {
-        slug,
-      },
+      body: getCategoryBySlugQuery({ slug }),
     });
-    return response.data.category;
   }
 }

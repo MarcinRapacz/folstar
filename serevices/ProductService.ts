@@ -9,15 +9,11 @@ export class ProductService {
   constructor(private api = getClient()) {}
 
   async getBySlug(slug: string) {
-    const response = await this.api.query<
+    return this.api.query<
       GetProductBySlugQuery,
       GetProductBySlugQueryVariables
     >({
-      query: getProductBySlugQuery,
-      variables: {
-        slug,
-      },
+      body: getProductBySlugQuery({ slug }),
     });
-    return response.data.product;
   }
 }
