@@ -7,7 +7,7 @@ const Logo = () => {
   return (
     <Link href="/" className="relative z-10 h-10 w-40">
       <Image
-        className="absolute inset-0 -z-50 h-full w-full object-contain object-left"
+        className="absolute inset-0 -z-50 h-full w-full object-contain sm:object-left"
         src={logo.src}
         alt="Logo firmy Folstar"
         width={logo.width}
