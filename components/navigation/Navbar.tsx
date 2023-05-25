@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <Container>
-      <section className="flex flex-row items-center justify-center px-4 sm:justify-between md:px-20">
+      <section className="flex flex-row items-center justify-center px-4 py-1 sm:justify-between sm:py-0 md:px-20">
         <Logo />
         <nav className="hidden sm:block">
           <ul className="flex flex-row items-center gap-4 hover:text-primary">
