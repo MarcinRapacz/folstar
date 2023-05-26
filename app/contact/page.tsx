@@ -10,6 +10,12 @@ import Image from "next/image";
 import H3 from "@/components/typography/H3";
 import Description from "@/components/typography/Description";
 
+export const metadata = {
+  title: "Firma Folstar - Sprzedaż Słodyczy i Produkcja Opakowań Foliowych",
+  description:
+    "Skontaktuj się z nami - Firma Folstar - posiada swoją siedzibę w Radziszowie. Jesteśmy gotowi odpowiedzieć na Twoje pytania, udzielić informacji i zapewnić profesjonalną obsługę. Skorzystaj z naszych danych kontaktowych i skontaktuj się z nami już dziś. Czekamy na Twoją wiadomość lub telefon. Firma Folstar - Twoje zaufane źródło słodyczy i opakowań foliowych.",
+};
+
 const Page = () => {
   return (
     <Container>
