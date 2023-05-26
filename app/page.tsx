@@ -82,8 +82,7 @@ export default function Home() {
             image={{
               url: contactUsBanner.src,
               alt: "Zapraszamy do kontaktu - banner",
-              source:
-                "https://pixabay.com/pl/photos/e-mail-poczta-r%c4%99ka-smartfon-pisa%c4%87-6370595/",
+              source: "https://unsplash.com/photos/BjhUu6BpUZA",
             }}
           >
             <ContactDetails />

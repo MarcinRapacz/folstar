@@ -8,10 +8,14 @@ interface BannerProps {
     alt: string;
     width: number;
     height: number;
+    source?: string;
   };
 }
 
-const Banner = ({ label, image: { src, alt, width, height } }: BannerProps) => {
+const Banner = ({
+  label,
+  image: { src, alt, width, height, source },
+}: BannerProps) => {
   return (
     <section className="relative flex h-[600px] w-full flex-col justify-center px-4 text-center md:px-20 md:text-left">
       <BannerHeading>{label}</BannerHeading>
@@ -30,6 +34,7 @@ const Banner = ({ label, image: { src, alt, width, height } }: BannerProps) => {
         alt={alt}
         width={width}
         height={height}
+        data-source={source}
         priority
       />
     </section>
