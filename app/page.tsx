@@ -23,26 +23,26 @@ export default function Home() {
           <TwoColTextImage
             image={{
               url: candiesBanner.src,
-              alt: "Banner z cukierkami",
+              alt: "Banner ze słodyczami",
               source:
                 "https://pixabay.com/pl/photos/cukierki-%c5%82akocie-s%c5%82oik-pojemnik-1961536/",
             }}
-            title="Sprzedaż cukierków"
+            title="Sprzedaż słodyczy"
             button={{
               label: "Zobacz więcej",
-              to: "/category/sprzedaz-cukierkow",
+              to: "/category/sprzedaz-slodyczy",
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            Zapraszamy do naszej firmy, specjalizujemy się w handlu słodyczami
+            odpustowymi. Oferujemy szeroki wybór pyszności, które z pewnością
+            zachwycą podniebienie Twoje i Twoich klientów . Nasza bogata oferta
+            zaspokoi nawet najbardziej wyrafinowane gusta.
           </TwoColTextImage>
           <TwoColTextImage
             reverse
             image={{
               url: foilBanner.src,
-              alt: "Banner z cukierkami",
+              alt: "Banner ze słodyczami",
               source:
                 "https://pixabay.com/pl/photos/folia-spakowany-opakowane-967256/",
             }}
@@ -52,10 +52,12 @@ export default function Home() {
               to: "/category/produkcja-opakowan-foliowych",
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos.
+            Specjalizujemy się w produkcji ozdobnych opakowań foliowych.
+            Oferujemy także usługi perforacji i cięcia folii, aby dostosować
+            nasze produkty do Twoich indywidualnych potrzeb. Dzięki naszej
+            wiedzy i doświadczeniu w branży, jesteśmy w stanie dostarczyć Ci
+            wysokiej jakości opakowania, które dodadzą elegancji i atrakcyjności
+            Twoim produktom.
           </TwoColTextImage>
           <OrderProcess />
           <TwoColTextImage

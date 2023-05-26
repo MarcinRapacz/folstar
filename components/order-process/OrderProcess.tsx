@@ -14,9 +14,9 @@ const orderProcess: OrderProcess[] = [
     },
   },
   {
-    title: "Przygotujemy go dla Ciebie",
+    title: "Szybka realizacja",
     description:
-      "Gotowe do kupienia lub ustalimy termin. Składaj zamówienie i ciesz się wyborem!",
+      "Dostępne od ręki lub ustalimy termin realizacji. Składaj zamówienie i ciesz się wyborem!",
     icon: MdUpdate,
   },
   {

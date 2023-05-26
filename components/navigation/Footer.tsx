@@ -23,14 +23,14 @@ const Footer = () => {
               Kontakt
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="/privacy-policy"
               className="text-sm hover:underline sm:text-base"
             >
               Polityka prywatności
             </Link>
-          </li>
+          </li> */}
         </ul>
         <span className="text-sm text-gray-500 sm:text-center">
           © {new Date().getFullYear()} developed by Marcin Rapacz

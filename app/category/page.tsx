@@ -9,9 +9,9 @@ import H3 from "@/components/typography/H3";
 import CategoryItem from "@/components/category/CategoryItem";
 
 export const metadata = {
-  title: "Cukierki odpustowe i opakowania foliowe - Folstar Radziszów, Kraków",
+  title: "Słodycze odpustowe i opakowania foliowe - Folstar Radziszów, Kraków",
   description:
-    "Zapraszamy do Folstar - oferujemy sprzedaż cukierków odpustowych oraz produkcję opakowań foliowych z perforacją. Znajdziesz nas w Radziszowie koło Krakowa.",
+    "Zapraszamy do Folstar - oferujemy sprzedaż słodyczy odpustowych oraz produkcję opakowań foliowych z perforacją. Znajdziesz nas w Radziszowie koło Krakowa.",
 };
 
 const Page = async () => {
@@ -35,7 +35,7 @@ const Page = async () => {
         </div>
         <div className="mt-8">
           <H3>
-            Sprzedajemy cukierki odpustowe oraz produkujemy opakowania foliowe.
+            Sprzedajemy słodycze odpustowe oraz produkujemy opakowania foliowe.
             Wybierz naszą ofertę już dziś!
           </H3>
         </div>
