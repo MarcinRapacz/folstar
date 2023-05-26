@@ -5,8 +5,8 @@ import { CategoryService } from "@/serevices/CategoryService";
 import categoriesBanner from "@/assets/images/categories-banner.jpg";
 import H1 from "@/components/typography/H1";
 import PageContent from "@/components/grid/PageContent";
-import H3 from "@/components/typography/H3";
 import CategoryItem from "@/components/category/CategoryItem";
+import Description from "@/components/typography/Description";
 
 export const metadata = {
   title: "Słodycze odpustowe i opakowania foliowe - Folstar Radziszów, Kraków",
@@ -34,10 +34,10 @@ const Page = async () => {
           <H1>Odkryj naszą szeroką ofertę produktów i usług</H1>
         </div>
         <div className="mt-8">
-          <H3>
+          <Description>
             Sprzedajemy słodycze odpustowe oraz produkujemy opakowania foliowe.
-            Wybierz naszą ofertę już dziś!
-          </H3>
+            Zobacz naszą ofertę już dziś!
+          </Description>
         </div>
         <div className="mt-16 flex flex-col gap-8 md:mt-24 md:gap-20 lg:flex-row">
           {categories.map((category) => (

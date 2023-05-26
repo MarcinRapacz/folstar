@@ -12,7 +12,7 @@ const CategoryItem = ({ category }: CategoryItemProps) => {
   return (
     <Link
       href={`/category/${category.slug}`}
-      className="w-full cursor-pointer overflow-hidden rounded-md transition-shadow hover:shadow-lg"
+      className="flex w-full cursor-pointer flex-col overflow-hidden rounded-md transition-shadow hover:shadow-lg"
     >
       <div className="relative h-[400px]">
         <Image
@@ -27,9 +27,9 @@ const CategoryItem = ({ category }: CategoryItemProps) => {
           height={category.image.height || 9}
         />
       </div>
-      <div className="rounded-b-md border px-4 py-6 md:p-16">
+      <div className="flex-grow rounded-b-md border px-4 py-6 md:p-16">
         <H6>{category.name}</H6>
-        <div className="mt-6">
+        <div className="mt-6 text-justify">
           <Description>{category.description}</Description>
         </div>
       </div>
