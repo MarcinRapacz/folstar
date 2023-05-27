@@ -10,13 +10,13 @@ import { getCategoryListQuery, getCategoryBySlugQuery } from "@/queries";
 export class CategoryService {
   constructor(private api = getClient()) {}
 
-  public async getAll() {
+  getAll() {
     return this.api.query<GetCategoryListQuery, GetCategoryListQueryVariables>({
       body: getCategoryListQuery(),
     });
   }
 
-  public async getBySlug(slug: string) {
+  getBySlug(slug: string) {
     return this.api.query<
       GetCategoryBySlugQuery,
       GetCategoryBySlugQueryVariables

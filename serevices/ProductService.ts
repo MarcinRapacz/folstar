@@ -1,14 +1,22 @@
 import {
   GetProductBySlugQuery,
   GetProductBySlugQueryVariables,
+  GetProductListQuery,
+  GetProductListQueryVariables,
 } from "@/__generated__/graphql";
 import { getClient } from "@/lib/client";
-import { getProductBySlugQuery } from "@/queries";
+import { getProductBySlugQuery, getProductListQuery } from "@/queries";
 
 export class ProductService {
   constructor(private api = getClient()) {}
 
-  async getBySlug(slug: string) {
+  getAll() {
+    return this.api.query<GetProductListQuery, GetProductListQueryVariables>({
+      body: getProductListQuery(),
+    });
+  }
+
+  getBySlug(slug: string) {
     return this.api.query<
       GetProductBySlugQuery,
       GetProductBySlugQueryVariables

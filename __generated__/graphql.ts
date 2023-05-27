@@ -5439,6 +5439,17 @@ export type GetCategoryListQuery = {
   }>;
 };
 
+export type GetProductListQueryVariables = Exact<{ [key: string]: never }>;
+
+export type GetProductListQuery = {
+  __typename?: "Query";
+  products: Array<{
+    __typename?: "Product";
+    id: string;
+    slug: string;
+  }>;
+};
+
 export type GetProductBySlugQueryVariables = Exact<{
   slug: Scalars["String"];
 }>;

@@ -25,6 +25,15 @@ export async function generateMetadata({
   };
 }
 
+export async function generateStaticParams() {
+  const productService = new ProductService();
+  const { products } = await productService.getAll();
+
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
 const Page = async ({ params }: { params: { slug: string } }) => {
   const productService = new ProductService();
   const { product } = await productService.getBySlug(params.slug);

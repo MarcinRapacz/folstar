@@ -24,6 +24,15 @@ export async function generateMetadata({
   };
 }
 
+export async function generateStaticParams() {
+  const categoryService = new CategoryService();
+  const { categories } = await categoryService.getAll();
+
+  return categories.map((category) => ({
+    slug: category.slug,
+  }));
+}
+
 const Page = async ({ params }: { params: { slug: string } }) => {
   const categoryService = new CategoryService();
   const { category } = await categoryService.getBySlug(params.slug);
