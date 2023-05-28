@@ -43,8 +43,6 @@ export default function Home() {
             image={{
               url: foilBanner.src,
               alt: "Banner ze słodyczami",
-              source:
-                "https://pixabay.com/pl/photos/folia-spakowany-opakowane-967256/",
             }}
             title="Produkcja opakowań foliowych"
             button={{
