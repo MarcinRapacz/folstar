@@ -34,8 +34,7 @@ export default function Home() {
             }}
           >
             Zapraszamy do naszej firmy, specjalizujemy się w handlu słodyczami
-            odpustowymi. Oferujemy szeroki wybór pyszności, które z pewnością
-            zachwycą podniebienie Twoje i Twoich klientów . Nasza bogata oferta
+            odpustowymi. Oferujemy szeroki wybór pyszności. Nasza bogata oferta
             zaspokoi nawet najbardziej wyrafinowane gusta.
           </TwoColTextImage>
           <TwoColTextImage
